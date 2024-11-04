@@ -1,0 +1,37 @@
+body {
+    background-color: #ff99cc; /* Cor de fundo rosa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    position: relative; /* Para posicionar a seta corretamente */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Fundo branco para os botões */
+}
+
+.arrow {
+    font-size: 48px; /* Tamanho da seta */
+    display: none; /* Começa escondida */
+    position: absolute; /* Para posicionar em relação à caixa */
+    left: 50%; /* Centralizar horizontalmente */
+    transform: translateX(-50%); /* Ajusta para que fique centralizado */
+    top: calc(50% - 70px); /* Ajusta para que fique acima do "sim" */
+    color: red; /* Cor da seta */
+    border-radius: 10px; /* Arredondar a seta */
+    background-color: rgba(255, 0, 0, 0.2); /* Fundo levemente transparente */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
